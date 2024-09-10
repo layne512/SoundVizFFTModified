@@ -14,6 +14,13 @@
 		237613622C59C507001FC322 /* SoundVizFFTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237613612C59C507001FC322 /* SoundVizFFTTests.swift */; };
 		2376136C2C59C507001FC322 /* SoundVizFFTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2376136B2C59C507001FC322 /* SoundVizFFTUITests.swift */; };
 		2376136E2C59C507001FC322 /* SoundVizFFTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2376136D2C59C507001FC322 /* SoundVizFFTUITestsLaunchTests.swift */; };
+		2376137F2C59C643001FC322 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2376137E2C59C643001FC322 /* RecordingView.swift */; };
+		237613812C59C677001FC322 /* SoundWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237613802C59C677001FC322 /* SoundWaveView.swift */; };
+		237613832C59C683001FC322 /* FFTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237613822C59C683001FC322 /* FFTView.swift */; };
+		237613852C59C692001FC322 /* SignalProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237613842C59C692001FC322 /* SignalProcessing.swift */; };
+		2376138D2C5A1146001FC322 /* WaveBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2376138C2C5A1146001FC322 /* WaveBackground.swift */; };
+		237613C52C5A5843001FC322 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237613C42C5A5843001FC322 /* Wave.swift */; };
+		237613C82C5A6733001FC322 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237613C72C5A6733001FC322 /* ReportView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,14 @@
 		237613672C59C507001FC322 /* SoundVizFFTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundVizFFTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2376136B2C59C507001FC322 /* SoundVizFFTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundVizFFTUITests.swift; sourceTree = "<group>"; };
 		2376136D2C59C507001FC322 /* SoundVizFFTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundVizFFTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2376137E2C59C643001FC322 /* RecordingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		237613802C59C677001FC322 /* SoundWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundWaveView.swift; sourceTree = "<group>"; };
+		237613822C59C683001FC322 /* FFTView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFTView.swift; sourceTree = "<group>"; };
+		237613842C59C692001FC322 /* SignalProcessing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalProcessing.swift; sourceTree = "<group>"; };
+		2376138C2C5A1146001FC322 /* WaveBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveBackground.swift; sourceTree = "<group>"; };
+		237613C42C5A5843001FC322 /* Wave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		237613C72C5A6733001FC322 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
+		23D73BF22C5B2BE200F81442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +109,16 @@
 		2376134F2C59C505001FC322 /* SoundVizFFT */ = {
 			isa = PBXGroup;
 			children = (
-				237613502C59C505001FC322 /* SoundVizFFTApp.swift */,
+				23D73BF22C5B2BE200F81442 /* Info.plist */,
+				237613C42C5A5843001FC322 /* Wave.swift */,
+				2376138C2C5A1146001FC322 /* WaveBackground.swift */,
 				237613522C59C505001FC322 /* ContentView.swift */,
+				2376137E2C59C643001FC322 /* RecordingView.swift */,
+				237613502C59C505001FC322 /* SoundVizFFTApp.swift */,
+				237613C72C5A6733001FC322 /* ReportView.swift */,
+				237613822C59C683001FC322 /* FFTView.swift */,
+				237613802C59C677001FC322 /* SoundWaveView.swift */,
+				237613842C59C692001FC322 /* SignalProcessing.swift */,
 				237613542C59C507001FC322 /* Assets.xcassets */,
 				237613562C59C507001FC322 /* Preview Content */,
 			);
@@ -257,6 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				237613832C59C683001FC322 /* FFTView.swift in Sources */,
+				2376138D2C5A1146001FC322 /* WaveBackground.swift in Sources */,
+				237613812C59C677001FC322 /* SoundWaveView.swift in Sources */,
+				2376137F2C59C643001FC322 /* RecordingView.swift in Sources */,
+				237613852C59C692001FC322 /* SignalProcessing.swift in Sources */,
+				237613C82C5A6733001FC322 /* ReportView.swift in Sources */,
+				237613C52C5A5843001FC322 /* Wave.swift in Sources */,
 				237613532C59C505001FC322 /* ContentView.swift in Sources */,
 				237613512C59C505001FC322 /* SoundVizFFTApp.swift in Sources */,
 			);
@@ -425,6 +455,7 @@
 				DEVELOPMENT_TEAM = K7V3CY8HX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoundVizFFT/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +485,7 @@
 				DEVELOPMENT_TEAM = K7V3CY8HX5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoundVizFFT/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

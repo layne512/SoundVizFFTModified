@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "VRI_ICON.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
